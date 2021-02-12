@@ -1,8 +1,6 @@
 import numpy as np
 
-a = 0.1
-d = 1
-n = 10000
+
 def sampling_linear_model(n, d, a):
     X    = np.random.multivariate_normal(mean =np.zeros((d,)), 
                                       cov     =np.eye(d),
